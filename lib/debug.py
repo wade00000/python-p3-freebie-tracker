@@ -1,9 +1,26 @@
-#!/usr/bin/env python3
-
+from models import Base, Company, Dev, Freebie
 from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
-from models import Company, Dev
+engine = create_engine('sqlite:///freebies.db')
+Session = sessionmaker(bind=engine)
+session = Session()
 
-if __name__ == '__main__':
-    engine = create_engine('sqlite:///freebies.db')
-    import ipdb; ipdb.set_trace()
+
+Base.metadata.create_all(engine)
+
+if __name__ == "__main__":
+    import code
+
+    banner = """
+    Debug shell for Freebie Tracker
+
+    Available variables:
+      - session : SQLAlchemy session
+      - Company, Dev, Freebie : your models
+    """
+
+    
+    vars = globals().copy()
+    vars.update(locals())
+    code.interact(banner=banner, local=vars)
