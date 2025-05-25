@@ -1,29 +1,28 @@
 # Freebie Tracker
 
-**Freebie Tracker** is a handy tool designed to help developers keep track of all the freebies they receive — whether swag, giveaways, or promotional items — from companies during hackathons, conferences, or other events.
+**Freebie Tracker** is your developer-sidekick for cataloging swag, giveaways, and promotional treasures snagged from hackathons, conferences, and events. Never lose track of that elusive T-shirt or sticker pack again.
 
 ## Project Overview
 
-This app models the dynamic relationships between:
+This app elegantly models the real-world relationships between:
 
-- **Companies** that distribute freebies,
-- **Developers** who collect freebies,
-- **Freebies** themselves, which are linked to both a company and a developer.
+- **Companies** dishing out freebies,  
+- **Developers** eagerly collecting them,  
+- **Freebies** themselves—linked to both their origin and their proud owners.
 
-The goal is to provide a structured and intuitive way to record, organize, and query collections of swag.
+The goal? To provide a clear, intuitive system for logging, organizing, and querying your collection of coveted swag.
 
+## Key Features
 
+- **Transaction Logging:** Effortlessly record which developer scored what item from which company.  
+- **Company Freebie Catalog:** Instantly view every freebie distributed by any company.  
+- **Developer Inventory:** Quickly browse all swag owned by a developer.  
+- **Relationship Mapping:** Reveal who holds freebies from which companies — perfect for competitive bragging rights.  
+- **Seamless Transfers:** Easily transfer freebies between developers without breaking a sweat.
 
-## Features
+## Installation
 
-- **Record Transactions:** Log which developer received which item from which company.
-- **Company Freebie View:** Display all freebies given out by a specific company.
-- **Developer Collection View:** See all freebies collected by a particular developer.
-- **Relationship Tracking:** Identify which developers hold freebies from which companies.
-- **Freebie Transfers:** Transfer freebies between developers seamlessly.
-
-
-### Installation
+Clone the repo and dive right in:
 
 ```bash
 git clone https://github.com/yourusername/python-p3-freebie-tracker.git
