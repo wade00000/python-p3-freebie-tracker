@@ -27,8 +27,8 @@ The goal is to provide a structured and intuitive way to record, organize, and q
 
 ```bash
 git clone https://github.com/yourusername/python-p3-freebie-tracker.git
-cd freebie-tracker
+cd python-p3-freebie-tracker
 
 You can explore the domain design and data model here:  
-[Freebie Tracker Domain Design](https://dbdiagram.io/d/68336bb3b9f7446da31342a0)
+[Freebie Tracker Domain Design] "https://dbdiagram.io/d/68336bb3b9f7446da31342a0"
 
